@@ -1,0 +1,31 @@
+C:\Documents and Settings\Administrator\Pulpit\rs232\rs232\rs232\bin\Debug\rs232.exe
+C:\Documents and Settings\Administrator\Pulpit\rs232\rs232\rs232\bin\Debug\rs232.pdb
+C:\Documents and Settings\Administrator\Pulpit\rs232\rs232\rs232\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Pulpit\rs232\rs232\rs232\obj\x86\Debug\rs232.RS232.resources
+C:\Documents and Settings\Administrator\Pulpit\rs232\rs232\rs232\obj\x86\Debug\rs232.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Pulpit\rs232\rs232\rs232\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Pulpit\rs232\rs232\rs232\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Pulpit\rs232\rs232\rs232\obj\x86\Debug\rs232.exe
+C:\Documents and Settings\Administrator\Pulpit\rs232\rs232\rs232\obj\x86\Debug\rs232.pdb
+C:\Users\Damian\Desktop\rs232\rs232\rs232\bin\Debug\rs232.exe
+C:\Users\Damian\Desktop\rs232\rs232\rs232\bin\Debug\rs232.pdb
+C:\Users\Damian\Desktop\rs232\rs232\rs232\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Damian\Desktop\rs232\rs232\rs232\obj\x86\Debug\rs232.RS232.resources
+C:\Users\Damian\Desktop\rs232\rs232\rs232\obj\x86\Debug\rs232.Properties.Resources.resources
+C:\Users\Damian\Desktop\rs232\rs232\rs232\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Damian\Desktop\rs232\rs232\rs232\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Damian\Desktop\rs232\rs232\rs232\obj\x86\Debug\rs232.exe
+C:\Users\Damian\Desktop\rs232\rs232\rs232\obj\x86\Debug\rs232.pdb
+C:\Documents and Settings\Administrator\Pulpit\materialy inz\rs232\rs232\rs232\obj\x86\Debug\rs232.exe
+C:\Documents and Settings\Administrator\Pulpit\materialy inz\rs232\rs232\rs232\obj\x86\Debug\rs232.pdb
+C:\Documents and Settings\Administrator\Pulpit\materialy inz\rs232\rs232\rs232\bin\Debug\rs232.exe
+C:\Documents and Settings\Administrator\Pulpit\materialy inz\rs232\rs232\rs232\bin\Debug\rs232.pdb
+C:\Documents and Settings\Administrator\Pulpit\materialy inz\rs232\rs232\rs232\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Pulpit\materialy inz\rs232\rs232\rs232\obj\x86\Debug\rs232.RS232.resources
+C:\Documents and Settings\Administrator\Pulpit\materialy inz\rs232\rs232\rs232\obj\x86\Debug\rs232.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Pulpit\materialy inz\rs232\rs232\rs232\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Pulpit\materialy inz\rs232\rs232\rs232\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Pulpit\materialy inz\rs232\rs232\rs232\obj\x86\Debug\rs232.tempgraniczna.resources
+C:\Documents and Settings\Administrator\Pulpit\materialy inz\rs232\rs232\rs232\obj\x86\Debug\rs232.sterowanielampy.resources
+C:\Users\Damian\Desktop\rs232\rs232\rs232\obj\x86\Debug\rs232.sterowanielampy.resources
+C:\Users\Damian\Desktop\rs232\rs232\rs232\obj\x86\Debug\rs232.tempgraniczna.resources

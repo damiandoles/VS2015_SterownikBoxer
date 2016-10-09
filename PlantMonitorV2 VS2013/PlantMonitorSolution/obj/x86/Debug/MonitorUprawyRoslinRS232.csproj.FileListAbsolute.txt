@@ -1,0 +1,11 @@
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\MonitorUprawyRoslinRS232.csproj.ResolveComReference.cache
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\aplikacja_dostepowa.MainForm.resources
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\aplikacja_dostepowa.Properties.Resources.resources
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\MonitorUprawyRoslinRS232.csproj.GenerateResource.Cache
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\bin\Debug\aplikacja_dostepowa.exe
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\bin\Debug\aplikacja_dostepowa.pdb
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\aplikacja_dostepowa.exe
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\aplikacja_dostepowa.pdb
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\aplikacja_dostepowa.Irrigation.resources
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\aplikacja_dostepowa.LightControl.resources
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\aplikacja_dostepowa.MaxTemp.resources

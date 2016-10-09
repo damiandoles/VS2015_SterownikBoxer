@@ -1,0 +1,98 @@
+
+!!!! [ERROR] !!!!
+Occured time: 2016-09-20 00:07:05
+Error: Thread was being aborted.
+Inner text: None
+Stack trace:    at System.Net.UnsafeNclNativeMethods.OSSOCK.recvfrom(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags, Byte[] socketAddress, Int32& socketAddressSize)
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at System.Net.Sockets.UdpClient.Receive(IPEndPoint& remoteEP)
+   at PlantMonitorV2.MainForm.UDP_Listener() in C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\MainForm.cs:line 204
+==========================================================================================
+
+!!!! [ERROR] !!!!
+Occured time: 2016-09-20 01:53:12
+Error: Tylko jedno użycie każdego adresu gniazda (protokół/adres sieciowy/port) jest normalnie dozwolone
+Inner text: None
+Stack trace:    at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at PlantMonitorV2.MainForm.UDP_Listener() in C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\MainForm.cs:line 184
+==========================================================================================
+
+!!!! [ERROR] !!!!
+Occured time: 2016-09-20 02:06:30
+Error: Thread was being aborted.
+Inner text: None
+Stack trace:    at System.Net.UnsafeNclNativeMethods.OSSOCK.recvfrom(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags, Byte[] socketAddress, Int32& socketAddressSize)
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at System.Net.Sockets.UdpClient.Receive(IPEndPoint& remoteEP)
+   at PlantMonitorV2.MainForm.UDP_Listener() in C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\MainForm.cs:line 204
+==========================================================================================
+
+!!!! [ERROR] !!!!
+Occured time: 2016-09-20 12:07:03
+Error: Thread was being aborted.
+Inner text: None
+Stack trace:    at System.Net.UnsafeNclNativeMethods.OSSOCK.recvfrom(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags, Byte[] socketAddress, Int32& socketAddressSize)
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at System.Net.Sockets.UdpClient.Receive(IPEndPoint& remoteEP)
+   at PlantMonitorV2.MainForm.UDP_Listener() in C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\MainForm.cs:line 204
+==========================================================================================
+
+!!!! [ERROR] !!!!
+Occured time: 2016-09-20 12:07:36
+Error: Thread was being aborted.
+Inner text: None
+Stack trace:    at System.Net.UnsafeNclNativeMethods.OSSOCK.recvfrom(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags, Byte[] socketAddress, Int32& socketAddressSize)
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at System.Net.Sockets.UdpClient.Receive(IPEndPoint& remoteEP)
+   at PlantMonitorV2.MainForm.UDP_Listener() in C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\MainForm.cs:line 204
+==========================================================================================
+
+!!!! [ERROR] !!!!
+Occured time: 2016-09-20 16:40:02
+Error: Thread was being aborted.
+Inner text: None
+Stack trace:    at System.Net.UnsafeNclNativeMethods.OSSOCK.recvfrom(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags, Byte[] socketAddress, Int32& socketAddressSize)
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at System.Net.Sockets.UdpClient.Receive(IPEndPoint& remoteEP)
+   at PlantMonitorV2.MainForm.UDP_Listener() in C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\MainForm.cs:line 204
+==========================================================================================
+
+!!!! [ERROR] !!!!
+Occured time: 2016-09-20 16:42:28
+Error: Thread was being aborted.
+Inner text: None
+Stack trace:    at System.Net.UnsafeNclNativeMethods.OSSOCK.recvfrom(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags, Byte[] socketAddress, Int32& socketAddressSize)
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at System.Net.Sockets.UdpClient.Receive(IPEndPoint& remoteEP)
+   at PlantMonitorV2.MainForm.UDP_Listener() in C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\MainForm.cs:line 204
+==========================================================================================
+
+!!!! [ERROR] !!!!
+Occured time: 2016-09-20 16:42:56
+Error: Thread was being aborted.
+Inner text: None
+Stack trace:    at System.Net.UnsafeNclNativeMethods.OSSOCK.recvfrom(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags, Byte[] socketAddress, Int32& socketAddressSize)
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at System.Net.Sockets.UdpClient.Receive(IPEndPoint& remoteEP)
+   at PlantMonitorV2.MainForm.UDP_Listener() in C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\MainForm.cs:line 204
+==========================================================================================
+
+!!!! [ERROR] !!!!
+Occured time: 2016-09-20 17:32:01
+Error: Tylko jedno użycie każdego adresu gniazda (protokół/adres sieciowy/port) jest normalnie dozwolone
+Inner text: None
+Stack trace:    at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at PlantMonitorV2.MainForm.UDP_Listener() in C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\MainForm.cs:line 184
+==========================================================================================
+
+!!!! [ERROR] !!!!
+Occured time: 2016-09-20 20:01:30
+Error: Thread was being aborted.
+Inner text: None
+Stack trace:    at System.Net.UnsafeNclNativeMethods.OSSOCK.recvfrom(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags, Byte[] socketAddress, Int32& socketAddressSize)
+   at System.Net.Sockets.Socket.ReceiveFrom(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint& remoteEP)
+   at System.Net.Sockets.UdpClient.Receive(IPEndPoint& remoteEP)
+   at PlantMonitorV2.MainForm.UDP_Listener() in C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\MainForm.cs:line 204
+==========================================================================================

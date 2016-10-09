@@ -1,0 +1,135 @@
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\bin\Debug\aplikacja_dostepowa.exe
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\bin\Debug\aplikacja_dostepowa.pdb
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\PlantMonitorV2.csproj.ResolveComReference.cache
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\aplikacja_dostepowa.MainForm.resources
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\aplikacja_dostepowa.Irrigation.resources
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\aplikacja_dostepowa.Properties.Resources.resources
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\aplikacja_dostepowa.LightControl.resources
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\aplikacja_dostepowa.Temp.resources
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\PlantMonitorV2.csproj.GenerateResource.Cache
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\aplikacja_dostepowa.exe
+C:\Users\011008\Documents\Praca dyplomowa inz\oprogramowanie\aplikacja_dostepowa\aplikacja_dostepowa\obj\x86\Debug\aplikacja_dostepowa.pdb
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitor\obj\x86\Debug\PlantMonitorV2.csproj.ResolveComReference.cache
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitor\obj\x86\Debug\PlantMonitorV2.csprojResolveAssemblyReference.cache
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitor\obj\x86\Debug\aplikacja_dostepowa.MainForm.resources
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitor\obj\x86\Debug\aplikacja_dostepowa.Irrigation.resources
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitor\obj\x86\Debug\aplikacja_dostepowa.Properties.Resources.resources
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitor\obj\x86\Debug\aplikacja_dostepowa.LightControl.resources
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitor\obj\x86\Debug\aplikacja_dostepowa.Temp.resources
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitor\obj\x86\Debug\PlantMonitorV2.csproj.GenerateResource.Cache
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\bin\Debug\PlantMonitorV2.exe
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\bin\Debug\PlantMonitorV2.pdb
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.ResolveComReference.cache
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.MainForm.resources
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Irrigation.resources
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Properties.Resources.resources
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.LightControl.resources
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.HumidityControl.resources
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.TempControl.resources
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.GenerateResource.Cache
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.exe
+C:\Users\011008\Documents\moje pliki\Praca dyplomowa inz\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.pdb
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.ResolveComReference.cache
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.exe
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.pdb
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\bin\Debug\PlantMonitorV2.exe
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\bin\Debug\PlantMonitorV2.pdb
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.MainForm.resources
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Irrigation.resources
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Properties.Resources.resources
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.LightControl.resources
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.HumidityControl.resources
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.TempControl.resources
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.GenerateResource.Cache
+E:\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.ResolveComReference.cache
+E:\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.exe
+E:\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.pdb
+E:\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\bin\Debug\PlantMonitorV2.exe
+E:\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\bin\Debug\PlantMonitorV2.pdb
+E:\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.MainForm.resources
+E:\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Irrigation.resources
+E:\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Properties.Resources.resources
+E:\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.LightControl.resources
+E:\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.HumidityControl.resources
+E:\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.TempControl.resources
+E:\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.GenerateResource.Cache
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csprojResolveAssemblyReference.cache
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.ResolveComReference.cache
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.exe
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.pdb
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.exe
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.pdb
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csprojResolveAssemblyReference.cache
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.MainForm.resources
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Irrigation.resources
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Properties.Resources.resources
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.LightControl.resources
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.HumidityControl.resources
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.TempControl.resources
+C:\Users\Doles\Desktop\oprogramowanie\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.GenerateResource.Cache
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roślin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.ResolveComReference.cache
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roślin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.exe
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roślin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.pdb
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roślin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.exe
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roślin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.pdb
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roślin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csprojResolveAssemblyReference.cache
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roślin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.MainForm.resources
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roślin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Irrigation.resources
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roślin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Properties.Resources.resources
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roślin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.LightControl.resources
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roślin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.HumidityControl.resources
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roślin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.TempControl.resources
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roślin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.GenerateResource.Cache
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.ResolveComReference.cache
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.exe
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.pdb
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.exe
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.pdb
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csprojResolveAssemblyReference.cache
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.MainForm.resources
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Irrigation.resources
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Properties.Resources.resources
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.LightControl.resources
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.HumidityControl.resources
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.TempControl.resources
+C:\Users\Doles\Desktop\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.GenerateResource.Cache
+E:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.ResolveComReference.cache
+E:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.exe
+E:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.pdb
+E:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.exe
+E:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.pdb
+E:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csprojResolveAssemblyReference.cache
+E:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.MainForm.resources
+E:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Irrigation.resources
+E:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Properties.Resources.resources
+E:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.LightControl.resources
+E:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.HumidityControl.resources
+E:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.TempControl.resources
+E:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.GenerateResource.Cache
+D:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.ResolveComReference.cache
+D:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.exe
+D:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.pdb
+D:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.exe
+D:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.pdb
+D:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.MainForm.resources
+D:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Irrigation.resources
+D:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Properties.Resources.resources
+D:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.LightControl.resources
+D:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.HumidityControl.resources
+D:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.TempControl.resources
+D:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.GenerateResource.Cache
+D:\DOKUMENTY\ELEKTRONIKA\projekty wykonane\BOXER - sterownik uprawy roslin\WERSJA V2\OPROGRAMOWANIE V2 (MGR)\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csprojResolveAssemblyReference.cache
+C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\configApp.ini
+C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.exe.config
+C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.exe
+C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.pdb
+C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.ResolveComReference.cache
+C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.MainForm.resources
+C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Irrigation.resources
+C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.NetConfigForm.resources
+C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Properties.Resources.resources
+C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.LightControl.resources
+C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.TempControl.resources
+C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.GenerateResource.Cache
+C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.exe
+C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.pdb
