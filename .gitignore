@@ -1,0 +1,12 @@
+*.txt
+PlantMonitorV2 VS2013/PlantMonitorSolution/*obj
+PlantMonitorV2 VS2013/PlantMonitorSolution/bin/*Debug
+PlantMonitorV2 VS2013/PlantMonitorSolution/bin/*Release
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+[Bb]in/
+[Oo]bj/
