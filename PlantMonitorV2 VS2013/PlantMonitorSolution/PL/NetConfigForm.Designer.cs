@@ -129,7 +129,7 @@
             this.netConfGroup.TabIndex = 42;
             this.netConfGroup.TabStop = false;
             // 
-            // NetConfig
+            // NetConfigForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -137,7 +137,7 @@
             this.Controls.Add(this.netConfGroup);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "NetConfig";
+            this.Name = "NetConfigForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Ustawienia sieciowe";
             this.netTableLayout.ResumeLayout(false);

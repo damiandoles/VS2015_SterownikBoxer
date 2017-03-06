@@ -133,3 +133,17 @@ C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMo
 C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.GenerateResource.Cache
 C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.exe
 C:\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.pdb
+C:\Git_Workspace\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\configApp.ini
+C:\Git_Workspace\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.exe.config
+C:\Git_Workspace\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.exe
+C:\Git_Workspace\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\bin\Debug\PlantMonitorV2.pdb
+C:\Git_Workspace\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.ResolveComReference.cache
+C:\Git_Workspace\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.MainForm.resources
+C:\Git_Workspace\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Irrigation.resources
+C:\Git_Workspace\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.NetConfigForm.resources
+C:\Git_Workspace\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.Properties.Resources.resources
+C:\Git_Workspace\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.LightControl.resources
+C:\Git_Workspace\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.TempControl.resources
+C:\Git_Workspace\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.csproj.GenerateResource.Cache
+C:\Git_Workspace\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.exe
+C:\Git_Workspace\VS_Workspace\PlantMonitorV2 VS2013\PlantMonitorSolution\obj\x86\Debug\PlantMonitorV2.pdb

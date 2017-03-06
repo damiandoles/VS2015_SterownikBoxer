@@ -100,6 +100,8 @@ namespace PlantMonitorV2.DAL
         {
             IniWriteValue("TempConfig", "state", xTempCfg.Mode.ToString());
             IniWriteValue("TempConfig", "temp", xTempCfg.TempValue.ToString());
+            IniWriteValue("TempConfig", "fanPull", xTempCfg.FanPull.ToString());
+            IniWriteValue("TempConfig", "fanPush", xTempCfg.FanPush.ToString());
         }
 
         public IrrConfig GetIrrigationConfig()

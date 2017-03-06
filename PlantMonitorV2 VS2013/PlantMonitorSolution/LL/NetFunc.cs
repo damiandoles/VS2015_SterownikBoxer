@@ -3,6 +3,7 @@ using System.Net.Sockets;
 using System.Threading;
 using NetConfig = PlantMonitorV2.DAL.NetConfig;
 using System.Text.RegularExpressions;
+using System.Text;
 using System.Net;
 
 namespace PlantMonitorV2.LL
@@ -129,7 +130,17 @@ namespace PlantMonitorV2.LL
                 {
                     IPEndPoint remoteIp = new IPEndPoint(IPAddress.Parse(netCfg.IpAddr), netCfg.Port);
                     ReceivedDataBytes = client.Receive(ref remoteIp);
-                    ReceivedData = ReceivedDataBytes;
+
+                    string recvStr = Encoding.ASCII.GetString(ReceivedDataBytes);
+
+                    if (ReceivedDataBytes != null)
+                    {
+                        int echo = String.Compare(recvStr, "sterownik1");
+                        if (echo != 0)
+                        {
+                            ReceivedData = ReceivedDataBytes;
+                        }
+                    }
                 }
                 catch (Exception err)
                 {

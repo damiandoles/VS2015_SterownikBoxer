@@ -43,8 +43,8 @@
             this.Irrigation_SubMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Temp_SubMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ResetDevice_SubMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.SetDate_SubMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ustawieniaSiecioweToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tESTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Calibration_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CalibrateWaterpH_SubMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CalibrateSoilpH_SubMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -56,6 +56,7 @@
             this.trayMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.ShowApp_TrayMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.CloseApp_TrayMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.przywrócUstawieniaDomyślneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.receivedConsole_gbx.SuspendLayout();
             this.receivedConsole_tlp.SuspendLayout();
             this.programMenu.SuspendLayout();
@@ -165,8 +166,9 @@
             this.Irrigation_SubMenuItem,
             this.Temp_SubMenuItem,
             this.ResetDevice_SubMenuItem,
-            this.SetDate_SubMenuItem,
-            this.ustawieniaSiecioweToolStripMenuItem});
+            this.ustawieniaSiecioweToolStripMenuItem,
+            this.przywrócUstawieniaDomyślneToolStripMenuItem,
+            this.tESTToolStripMenuItem});
             this.PrimarySettings_MenuItem.Name = "PrimarySettings_MenuItem";
             this.PrimarySettings_MenuItem.Size = new System.Drawing.Size(146, 20);
             this.PrimarySettings_MenuItem.Text = "Ustawienia podstawowe";
@@ -174,44 +176,44 @@
             // LightControl_SubMenuItem
             // 
             this.LightControl_SubMenuItem.Name = "LightControl_SubMenuItem";
-            this.LightControl_SubMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.LightControl_SubMenuItem.Size = new System.Drawing.Size(236, 22);
             this.LightControl_SubMenuItem.Text = "Lampa sodowa";
             this.LightControl_SubMenuItem.Click += new System.EventHandler(this.LightControl_submenuitem_Click);
             // 
             // Irrigation_SubMenuItem
             // 
             this.Irrigation_SubMenuItem.Name = "Irrigation_SubMenuItem";
-            this.Irrigation_SubMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.Irrigation_SubMenuItem.Size = new System.Drawing.Size(236, 22);
             this.Irrigation_SubMenuItem.Text = "Nawadnianie";
             this.Irrigation_SubMenuItem.Click += new System.EventHandler(this.Irrigation_submenuitem_Click);
             // 
             // Temp_SubMenuItem
             // 
             this.Temp_SubMenuItem.Name = "Temp_SubMenuItem";
-            this.Temp_SubMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.Temp_SubMenuItem.Size = new System.Drawing.Size(236, 22);
             this.Temp_SubMenuItem.Text = "Temperatura";
             this.Temp_SubMenuItem.Click += new System.EventHandler(this.Temp_submenuitem_Click);
             // 
             // ResetDevice_SubMenuItem
             // 
             this.ResetDevice_SubMenuItem.Name = "ResetDevice_SubMenuItem";
-            this.ResetDevice_SubMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.ResetDevice_SubMenuItem.Size = new System.Drawing.Size(236, 22);
             this.ResetDevice_SubMenuItem.Text = "Reset sterownika";
             this.ResetDevice_SubMenuItem.Click += new System.EventHandler(this.ResetDevice_submenuitem_Click);
-            // 
-            // SetDate_SubMenuItem
-            // 
-            this.SetDate_SubMenuItem.Name = "SetDate_SubMenuItem";
-            this.SetDate_SubMenuItem.Size = new System.Drawing.Size(205, 22);
-            this.SetDate_SubMenuItem.Text = "Ustaw datę w sterowniku";
-            this.SetDate_SubMenuItem.Click += new System.EventHandler(this.SetDate_submenuitem_Click);
             // 
             // ustawieniaSiecioweToolStripMenuItem
             // 
             this.ustawieniaSiecioweToolStripMenuItem.Name = "ustawieniaSiecioweToolStripMenuItem";
-            this.ustawieniaSiecioweToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.ustawieniaSiecioweToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
             this.ustawieniaSiecioweToolStripMenuItem.Text = "Ustawienia sieciowe";
             this.ustawieniaSiecioweToolStripMenuItem.Click += new System.EventHandler(this.ustawieniaSiecioweToolStripMenuItem_Click);
+            // 
+            // tESTToolStripMenuItem
+            // 
+            this.tESTToolStripMenuItem.Name = "tESTToolStripMenuItem";
+            this.tESTToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.tESTToolStripMenuItem.Text = "TEST";
+            this.tESTToolStripMenuItem.Click += new System.EventHandler(this.tESTToolStripMenuItem_Click);
             // 
             // Calibration_MenuItem
             // 
@@ -297,6 +299,13 @@
             this.CloseApp_TrayMenu.Text = "Zakończ program";
             this.CloseApp_TrayMenu.Click += new System.EventHandler(this.CloseProgram_traymenu_Click);
             // 
+            // przywrócUstawieniaDomyślneToolStripMenuItem
+            // 
+            this.przywrócUstawieniaDomyślneToolStripMenuItem.Name = "przywrócUstawieniaDomyślneToolStripMenuItem";
+            this.przywrócUstawieniaDomyślneToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.przywrócUstawieniaDomyślneToolStripMenuItem.Text = "Przywróc ustawienia domyślne";
+            this.przywrócUstawieniaDomyślneToolStripMenuItem.Click += new System.EventHandler(this.przywrócUstawieniaDomyślneToolStripMenuItem_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -344,7 +353,6 @@
         private System.Windows.Forms.ContextMenuStrip trayMenu;
         private System.Windows.Forms.ToolStripMenuItem ShowApp_TrayMenu;
         private System.Windows.Forms.ToolStripMenuItem CloseApp_TrayMenu;
-        private System.Windows.Forms.ToolStripMenuItem SetDate_SubMenuItem;
         private System.Windows.Forms.ToolStripMenuItem AboutProgram_MenuItem;
         private System.Windows.Forms.ToolStripMenuItem Information_SubMenuItem;
         private System.Windows.Forms.ToolStripMenuItem Help_SubMenuItem;
@@ -353,5 +361,7 @@
         private System.Windows.Forms.ToolStripMenuItem CalibrateSoilpH_SubMenuItem;
         private System.Windows.Forms.ToolStripMenuItem Irrigation_SubMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ustawieniaSiecioweToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tESTToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem przywrócUstawieniaDomyślneToolStripMenuItem;
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Text;
 using LampConfig = PlantMonitorV2.DAL.LampConfig;
 using NetFunc = PlantMonitorV2.LL.NetFunc;
 using NetConfig = PlantMonitorV2.DAL.NetConfig;
@@ -16,6 +17,14 @@ namespace PlantMonitorV2
         {
             STATE_OFF = 1,
             STATE_ON = 2
+        }
+
+        public byte[] CombineByteArrays(byte[] first, byte[] second)
+        {
+            byte[] ret = new byte[first.Length + second.Length];
+            Buffer.BlockCopy(first, 0, ret, 0, first.Length);
+            Buffer.BlockCopy(second, 0, ret, first.Length, second.Length);
+            return ret;
         }
 
         public LightControl(NetConfig netCfg)
@@ -37,21 +46,27 @@ namespace PlantMonitorV2
                     lampConfiguration.TimeOn = timeON;
                     lampConfiguration.TimeOff = timeOFF;
 
-                    byte[] cmdSetTemperature = new byte[11];
-                    cmdSetTemperature[0] = 83; //S
-                    cmdSetTemperature[1] = 84; //T
-                    cmdSetTemperature[2] = 65; //A
-                    cmdSetTemperature[3] = 83; //S - Set
-                    cmdSetTemperature[4] = 76; //L - Lamp
-                    cmdSetTemperature[5] = lampConfiguration.TimeOn;
-                    cmdSetTemperature[6] = lampConfiguration.TimeOff;
-                    cmdSetTemperature[7] = lampConfiguration.State;
-                    cmdSetTemperature[8] = 69; //E
-                    cmdSetTemperature[9] = 78; //N
-                    cmdSetTemperature[10] = 68; //D
+                    string timeOnStr = lampConfiguration.TimeOn.ToString(); 
+                    string timeOffStr = lampConfiguration.TimeOff.ToString();
+
+                    string commandStr = "";
+                    if (lampConfiguration.State == 1)
+                    {
+                        commandStr = "STA" + " " + "SL" + " " + timeOnStr + " " + timeOffStr + " " + "R" + " " + "END";
+                    }
+                    else if (lampConfiguration.State == 2)
+                    {
+                        commandStr = "STA" + " " + "SL" + " " + timeOnStr + " " + timeOffStr + " " + "S" + " " + "END";
+                    }
+                    else 
+                    {
+                        commandStr = "STA" + " " + "SL" + " " + "END";
+                    }
+
+                    byte[] commandByteArray = Encoding.ASCII.GetBytes(commandStr);
 
                     NetFunc netFunctional = new NetFunc(netConfiguration);
-                    netFunctional.UDP_Sender(cmdSetTemperature);
+                    netFunctional.UDP_Sender(commandByteArray);
                     netFunctional = null;
                     INIConfig iniCfg = new INIConfig();
                     iniCfg.SetLampConfig(lampConfiguration);
@@ -63,23 +78,27 @@ namespace PlantMonitorV2
                     lampConfiguration.TimeOn = timeON;
                     lampConfiguration.TimeOff = timeOFF;
 
-                    //string command = "STA BOXER SET LAMP " + timeON + " " + timeOFF + " " + MForm.NewLightState + " END";
+                    string timeOnStr = lampConfiguration.TimeOn.ToString();
+                    string timeOffStr = lampConfiguration.TimeOff.ToString();
 
-                    byte[] cmdSetTemperature = new byte[11];
-                    cmdSetTemperature[0] = 83; //S
-                    cmdSetTemperature[1] = 84; //T
-                    cmdSetTemperature[2] = 65; //A
-                    cmdSetTemperature[3] = 83; //S - Set
-                    cmdSetTemperature[4] = 76; //L - Lamp
-                    cmdSetTemperature[5] = lampConfiguration.TimeOn;
-                    cmdSetTemperature[6] = lampConfiguration.TimeOff;
-                    cmdSetTemperature[7] = lampConfiguration.State;
-                    cmdSetTemperature[8] = 69; //E
-                    cmdSetTemperature[9] = 78; //N
-                    cmdSetTemperature[10] = 68; //D
+                    string commandStr = "";
+                    if (lampConfiguration.State == 1)
+                    {
+                        commandStr = "STA" + " " + "SL" + " " + timeOnStr + " " + timeOffStr + " " + "R" + " " + "END";
+                    }
+                    else if (lampConfiguration.State == 2)
+                    {
+                        commandStr = "STA" + " " + "SL" + " " + timeOnStr + " " + timeOffStr + " " + "S" + " " + "END";
+                    }
+                    else
+                    {
+                        commandStr = "STA" + " " + "SL" + " " + "END";
+                    }
+
+                    byte[] commandByteArray = Encoding.ASCII.GetBytes(commandStr);
 
                     NetFunc netFunctional = new NetFunc(netConfiguration);
-                    netFunctional.UDP_Sender(cmdSetTemperature);
+                    netFunctional.UDP_Sender(commandByteArray);
                     this.Close();
                 }
                 else if (!TurnOnState.Checked && !TurnOffState.Checked)

@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Windows.Forms;
 using System.Threading;
+using System.Text;
 using TempConfig = PlantMonitorV2.DAL.TempConfig;
 using INIConfig = PlantMonitorV2.DAL.INIConfig;
 using ErrorLogger = PlantMonitorV2.LL.ErrorLogger;
@@ -52,6 +53,8 @@ namespace PlantMonitorV2
 
             INIConfig iniConf = new INIConfig();
             netConfiguration = iniConf.GetNetworkConfig();
+            //netConfiguration.IpAddr = "255.255.255.255";
+            //netConfiguration.Port = 48899;
             errLog = new ErrorLogger();
             netFunctional = new NetFunc(netConfiguration);
             dispDta = new DisplayData(receivedConsole_tbx);
@@ -137,16 +140,9 @@ namespace PlantMonitorV2
             {
                 MessageBox.Show("Sterownik został zresetowany. Reset sterownika zasygnalizuje dźwięk.", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 // TODO reset urzadzenia - komenda !
-                byte[] cmdReset = new byte[7];
-                cmdReset[0] = 83; //S
-                cmdReset[1] = 84; //T
-                cmdReset[2] = 65; //A
-                cmdReset[3] = 82; //R - RESET
-                cmdReset[4] = 69; //E
-                cmdReset[5] = 78; //N
-                cmdReset[6] = 68; //D
-
-                netFunctional.UDP_Sender(cmdReset);
+                string commandStr = "STA R END";
+                byte[] commandByteArray = Encoding.ASCII.GetBytes(commandStr);
+                netFunctional.UDP_Sender(commandByteArray);
             }
             else ShowError();
         }
@@ -280,5 +276,44 @@ namespace PlantMonitorV2
         }
 
         #endregion
+
+        private void tESTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string DiscoveryPassword = "sterownik1"; //sterownik1
+            byte[] LogoDataBy = ASCIIEncoding.ASCII.GetBytes(DiscoveryPassword);
+
+            // HF-A11SISTHREAD, port 44889
+            //NetConfig netConfig = new NetConfig();
+            //netConfig.IpAddr = "255.255.255.255";
+            //netConfig.Port = 48899;
+            //NetFunc NetInstance = new NetFunc(netConfig);
+            //NetInstance.UDP_Sender(LogoDataBy);
+
+            try
+            {
+                NetConfig netConfig = new NetConfig();
+                netConfig.IpAddr = "255.255.255.255";// "192.168.0.255";
+                netConfig.Port = 48899;
+                NetFunc NetInstance = new NetFunc(netConfig);
+                NetInstance.UdpThreadRecv = new Thread(new ThreadStart(NetInstance.UDP_Listener));
+                NetInstance.UdpThreadRecv.Start();
+                NetInstance.UDP_Sender(LogoDataBy);
+            }
+            catch (Exception err)
+            {
+
+            }
+        }
+
+        private void przywrócUstawieniaDomyślneToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string commandStr = "STA DEF SETT END";
+
+            byte[] cmdSetTemperature = Encoding.ASCII.GetBytes(commandStr);
+
+            NetFunc netFunctional = new NetFunc(netConfiguration);
+            netFunctional.UDP_Sender(cmdSetTemperature);
+            netFunctional = null;
+        }
     }
 }
