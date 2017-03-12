@@ -35,102 +35,110 @@ namespace PlantMonitorV2
 
         private void SetLightControlSettings_btn_Click(object sender, EventArgs e)
         {
-            byte timeON = CheckAndConvertSetTime(TimeON_tbx.Text, "świecenia lampy");
-            byte timeOFF = CheckAndConvertSetTime(TimeOFF_tbx.Text, "wyłączenia lampy");
+            byte timeON = CheckAndConvertSetTime(TimeON_tbx, "świecenia lampy");
+            byte timeOFF = CheckAndConvertSetTime(TimeOFF_tbx, "wyłączenia lampy");
 
-            if (timeON + timeOFF == 24)
+            if (timeOFF == 24)
             {
-                if (TurnOffState.Checked)
-                {
-                    lampConfiguration.State = 1; //off
-                    lampConfiguration.TimeOn = timeON;
-                    lampConfiguration.TimeOff = timeOFF;
+                lampConfiguration.State = 1; //off
+                lampConfiguration.TimeOn = timeON;
+                lampConfiguration.TimeOff = timeOFF;
 
-                    string timeOnStr = lampConfiguration.TimeOn.ToString(); 
-                    string timeOffStr = lampConfiguration.TimeOff.ToString();
+                SendLampConfig();
+            }
+            else if (timeON == 24)
+            {
+                lampConfiguration.State = 2; //on
+                lampConfiguration.TimeOn = timeON;
+                lampConfiguration.TimeOff = timeOFF;
 
-                    string commandStr = "";
-                    if (lampConfiguration.State == 1)
-                    {
-                        commandStr = "STA" + " " + "SL" + " " + timeOnStr + " " + timeOffStr + " " + "R" + " " + "END";
-                    }
-                    else if (lampConfiguration.State == 2)
-                    {
-                        commandStr = "STA" + " " + "SL" + " " + timeOnStr + " " + timeOffStr + " " + "S" + " " + "END";
-                    }
-                    else 
-                    {
-                        commandStr = "STA" + " " + "SL" + " " + "END";
-                    }
-
-                    byte[] commandByteArray = Encoding.ASCII.GetBytes(commandStr);
-
-                    NetFunc netFunctional = new NetFunc(netConfiguration);
-                    netFunctional.UDP_Sender(commandByteArray);
-                    netFunctional = null;
-                    INIConfig iniCfg = new INIConfig();
-                    iniCfg.SetLampConfig(lampConfiguration);
-                    this.Close();
-                }
-                else if (TurnOnState.Checked)
-                {
-                    lampConfiguration.State = 2; //on
-                    lampConfiguration.TimeOn = timeON;
-                    lampConfiguration.TimeOff = timeOFF;
-
-                    string timeOnStr = lampConfiguration.TimeOn.ToString();
-                    string timeOffStr = lampConfiguration.TimeOff.ToString();
-
-                    string commandStr = "";
-                    if (lampConfiguration.State == 1)
-                    {
-                        commandStr = "STA" + " " + "SL" + " " + timeOnStr + " " + timeOffStr + " " + "R" + " " + "END";
-                    }
-                    else if (lampConfiguration.State == 2)
-                    {
-                        commandStr = "STA" + " " + "SL" + " " + timeOnStr + " " + timeOffStr + " " + "S" + " " + "END";
-                    }
-                    else
-                    {
-                        commandStr = "STA" + " " + "SL" + " " + "END";
-                    }
-
-                    byte[] commandByteArray = Encoding.ASCII.GetBytes(commandStr);
-
-                    NetFunc netFunctional = new NetFunc(netConfiguration);
-                    netFunctional.UDP_Sender(commandByteArray);
-                    this.Close();
-                }
-                else if (!TurnOnState.Checked && !TurnOffState.Checked)
-                {
-                    MessageBox.Show("Określ początkowy stan oświetlenia.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                SendLampConfig();
             }
             else
             {
-                MessageBox.Show("Podano złą liczbę czasów. Suma czasów musi być równa 24 (cykl dobowy)", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (timeON + timeOFF == 24)
+                {
+                    if (TurnOffState.Checked)
+                    {
+                        lampConfiguration.State = 1; //off
+                        lampConfiguration.TimeOn = timeON;
+                        lampConfiguration.TimeOff = timeOFF;
+
+                        SendLampConfig();
+                    }
+                    else if (TurnOnState.Checked)
+                    {
+                        lampConfiguration.State = 2; //on
+                        lampConfiguration.TimeOn = timeON;
+                        lampConfiguration.TimeOff = timeOFF;
+
+                        SendLampConfig();
+                    }
+                    else if (!TurnOnState.Checked && !TurnOffState.Checked)
+                    {
+                        MessageBox.Show("Określ początkowy stan oświetlenia.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Podano złą liczbę czasów. Suma czasów musi być równa 24 (cykl dobowy)", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
-        private byte CheckAndConvertSetTime(string time, string KindOfTime)
+        private void SendLampConfig ()
+        {
+            string timeOnStr = lampConfiguration.TimeOn.ToString();
+            string timeOffStr = lampConfiguration.TimeOff.ToString();
+
+            string commandStr = "";
+            if (lampConfiguration.State == 1)
+            {
+                commandStr = "STA" + " " + "SL" + " " + timeOnStr + " " + timeOffStr + " " + "R" + " " + "END";
+            }
+            else if (lampConfiguration.State == 2)
+            {
+                commandStr = "STA" + " " + "SL" + " " + timeOnStr + " " + timeOffStr + " " + "S" + " " + "END";
+            }
+            else
+            {
+                commandStr = "STA" + " " + "SL" + " " + "END";
+            }
+
+            byte[] commandByteArray = Encoding.ASCII.GetBytes(commandStr);
+
+            NetFunc netFunctional = new NetFunc(netConfiguration);
+            netFunctional.UDP_Sender(commandByteArray);
+            this.Close();
+        }
+
+        private byte CheckAndConvertSetTime(TextBox tbx, string KindOfTime)
         {
             byte timeByte = 0;
             try
             {
-                timeByte = Convert.ToByte(time);
-                if (timeByte < 0 || timeByte > 24)
+                if (tbx.Text == "")
                 {
-                    throw new Exception();
+                    return timeByte;
+                }
+                else
+                {
+                    timeByte = Convert.ToByte(tbx.Text);
+                    if (timeByte < 0 || timeByte > 24)
+                    {
+                        throw new Exception();
+                    }
                 }
             }
             catch (FormatException)
             {
-                MessageBox.Show("Nie podano czasu " + KindOfTime + " lub czas " + KindOfTime +" jest literą.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Czas " + KindOfTime +" jest literą!", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch (Exception)
             {
                 MessageBox.Show("Podano złą liczbę godzin czasu " + KindOfTime, "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
             return timeByte;
         }
     }
