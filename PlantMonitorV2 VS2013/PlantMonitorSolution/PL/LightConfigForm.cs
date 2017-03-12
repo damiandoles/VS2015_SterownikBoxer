@@ -45,6 +45,8 @@ namespace PlantMonitorV2
                 lampConfiguration.TimeOff = timeOFF;
 
                 SendLampConfig();
+                INIConfig iniCfg = new INIConfig();
+                iniCfg.SetLampConfig(lampConfiguration);
             }
             else if (timeON == 24)
             {
@@ -53,6 +55,8 @@ namespace PlantMonitorV2
                 lampConfiguration.TimeOff = timeOFF;
 
                 SendLampConfig();
+                INIConfig iniCfg = new INIConfig();
+                iniCfg.SetLampConfig(lampConfiguration);
             }
             else
             {
@@ -65,6 +69,8 @@ namespace PlantMonitorV2
                         lampConfiguration.TimeOff = timeOFF;
 
                         SendLampConfig();
+                        INIConfig iniCfg = new INIConfig();
+                        iniCfg.SetLampConfig(lampConfiguration);
                     }
                     else if (TurnOnState.Checked)
                     {
@@ -73,6 +79,8 @@ namespace PlantMonitorV2
                         lampConfiguration.TimeOff = timeOFF;
 
                         SendLampConfig();
+                        INIConfig iniCfg = new INIConfig();
+                        iniCfg.SetLampConfig(lampConfiguration);
                     }
                     else if (!TurnOnState.Checked && !TurnOffState.Checked)
                     {

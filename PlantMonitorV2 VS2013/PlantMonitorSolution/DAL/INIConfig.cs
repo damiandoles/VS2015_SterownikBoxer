@@ -4,6 +4,8 @@ using System.IO;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Text;
+using IniParser;
+using IniParser.Model;
 
 namespace PlantMonitorV2.DAL
 {
@@ -31,6 +33,8 @@ namespace PlantMonitorV2.DAL
                 configPath = Path.Combine(exeAssemblyDir, "configApp.ini");
                 int length = configPath.Length;
                 configPath = configPath.Substring(6, length - 6); //cut "file:\\" from string
+
+
             }
             catch (Exception err)
             {
@@ -49,7 +53,11 @@ namespace PlantMonitorV2.DAL
         /// Value Name
         public void IniWriteValue(string Section, string Key, string Value)
         {
-            WritePrivateProfileString(Section, Key, Value, this.configPath);
+            var parser = new FileIniDataParser();
+            IniData data = parser.ReadFile("configApp.ini");
+            data[Section][Key] = Value;
+            parser.WriteFile("configApp.ini", data);
+            //WritePrivateProfileString(Section, Key, Value, this.configPath);
         }
 
         /// <summary>
@@ -57,15 +65,17 @@ namespace PlantMonitorV2.DAL
         /// </summary>
         /// <PARAM name="Section"></PARAM>
         /// <PARAM name="Key"></PARAM>
-        /// <PARAM name="Path"></PARAM>
         /// <returns></returns>
         public string IniReadValue(string Section, string Key)
         {
-            StringBuilder temp = new StringBuilder(255);
-            int i = GetPrivateProfileString(Section, Key, "", temp,
-                                            255, this.configPath);
-            return temp.ToString();
+            //StringBuilder temp = new StringBuilder(255);
+            //int i = GetPrivateProfileString(Section, Key, "", temp,
+            //                                255, this.configPath);
+            var parser = new FileIniDataParser();
+            IniData data = parser.ReadFile("configApp.ini");
+            string useFullScreenStr = data[Section][Key];
 
+            return useFullScreenStr;
         }
 
         public LampConfig GetLampConfig()
@@ -75,7 +85,7 @@ namespace PlantMonitorV2.DAL
             lampTempCfg.TimeOff = Convert.ToByte(IniReadValue("LampConfig", "timeOff"));
             lampTempCfg.TimeOn = Convert.ToByte(IniReadValue("LampConfig", "timeOn"));
             lampTempCfg.State = Convert.ToByte(IniReadValue("LampConfig", "state"));
-
+            
             return lampTempCfg;
         }
 
@@ -90,15 +100,17 @@ namespace PlantMonitorV2.DAL
         {
             TempConfig tempCfg = new TempConfig();
 
+            tempCfg.FanPush = Convert.ToByte(IniReadValue("TempConfig", "fanPull"));
+            tempCfg.FanPull = Convert.ToByte(IniReadValue("TempConfig", "fanPush"));
             tempCfg.TempValue = Convert.ToByte(IniReadValue("TempConfig", "temp"));
-            tempCfg.Mode = Convert.ToByte(IniReadValue("TempConfig", "state"));
+            tempCfg.Mode = Convert.ToByte(IniReadValue("TempConfig", "mode"));
 
             return tempCfg;
         }
 
         public void SetTempConfig(TempConfig xTempCfg)
         {
-            IniWriteValue("TempConfig", "state", xTempCfg.Mode.ToString());
+            IniWriteValue("TempConfig", "mode", xTempCfg.Mode.ToString());
             IniWriteValue("TempConfig", "temp", xTempCfg.TempValue.ToString());
             IniWriteValue("TempConfig", "fanPull", xTempCfg.FanPull.ToString());
             IniWriteValue("TempConfig", "fanPush", xTempCfg.FanPush.ToString());

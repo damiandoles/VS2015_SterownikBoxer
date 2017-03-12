@@ -191,10 +191,27 @@ namespace PlantMonitorV2
                 lampState = "włączona";
             }
 
+            string fansString = null;
+            fansString = "Wentylator wciągający powietrze: " + tempCfg.FanPull + "% mocy" + Environment.NewLine;
+            fansString += "Wentylatory wyciągające powietrze: " + tempCfg.FanPush + "% mocy" + Environment.NewLine;
+
+            string tempMode = null; 
+            if (tempCfg.Mode == 1) //manual
+            {
+                tempMode = "manualny";
+
+            }
+            else if (tempCfg.Mode == 2) //auto
+            {
+                tempMode = "automatyczny (tryb max)";
+            }
+
             MessageBox.Show("Ustawione parametry: " + Environment.NewLine + 
                 "Lampa włączona: " + lampCfg.TimeOn + "h" + Environment.NewLine + 
                 "Lampa wyłączona: " + lampCfg.TimeOff + "h" + Environment.NewLine +
                 "Stan lampy: " + lampState + Environment.NewLine +
+                "Tryb sterowania temperaturą powietrza: " + tempMode + Environment.NewLine +
+                fansString + 
                 "Temperatura powietrza (max): " + tempCfg.TempValue + "°C" + Environment.NewLine +
                 "Adres IP: " + IpAddrInfo + Environment.NewLine +
                 "Port nasłuchu UDP: " + UdpPortInfo, "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -212,9 +229,8 @@ namespace PlantMonitorV2
                 "Lammpa załączona: 12h" + Environment.NewLine + 
                 "Lampa wyłączona: 12h" + Environment.NewLine +
                 "Stan lampy: wyłączona" + Environment.NewLine +
-                "Temperatura maksymalna przy wyłączonej pętli histerezy: 25°C." + Environment.NewLine + Environment.NewLine + 
+                "Tryb sterowania temperaturą: auto (temperatura maksymalna), Tmax = 25°C" + Environment.NewLine + Environment.NewLine + 
                 "Domyślny adres IP: 192.168.0.10" + Environment.NewLine +
-                "Domyślny port: 3535" + Environment.NewLine + Environment.NewLine +
                 "Pomyślne uruchomienie sterownika (również po resecie) sygnalizowane jest krótkim dźwiękiem." + Environment.NewLine + Environment.NewLine +
                 "Po wybraniu opcji kalibracji dowolnej sondy użytkownik ma 15 sekund czasu aby umieścić sondę w odpowiednim buforze pH, zaczynając od bufora o najmniejszym pH. Czas ten sygnalizowany jest dźwiękami buzzera, następnie wykonywany jest pomiar napięcia referencyjnego dla zadanego wzorca pH, który trwa około 30s. Proces wyboru kolejnego bufora powtarza się (cykl 15s z ostrzeżeniem dźwiękowym i 30s pomiar). Nalezy pamiętać, aby przed przystąpieniem do kalibracji przygotować czystą wodę (najlepiej demineralizowaną) oraz chłonny papier. Po każdym pomiarze należy umyć sondę wodą i wytrzeć papierem.", "Informacja", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
@@ -299,7 +315,7 @@ namespace PlantMonitorV2
                 NetInstance.UdpThreadRecv.Start();
                 NetInstance.UDP_Sender(LogoDataBy);
             }
-            catch (Exception err)
+            catch (Exception)
             {
 
             }

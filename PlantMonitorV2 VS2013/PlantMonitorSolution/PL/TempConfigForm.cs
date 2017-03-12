@@ -25,6 +25,7 @@ namespace PlantMonitorV2
             {
                 if (AutoTempControl_rbtn.Checked == true)
                 {
+                    tempCfg.Mode = 2;
                     byte tempByte = Convert.ToByte(Temperature_tbx.Text);
                     if (tempByte > 20 && tempByte < 33)
                     {
@@ -57,6 +58,9 @@ namespace PlantMonitorV2
                     int fanPush = trackBar2.Value;
 
                     tempCfg.Mode = 1;
+                    tempCfg.FanPull = Convert.ToByte(fanPull);
+                    tempCfg.FanPush = Convert.ToByte(fanPush);
+
                     string commandStr = "";
                     commandStr = "STA" + " " + "SF" + " " + fanPull + " " + fanPush + " " + "END";
 

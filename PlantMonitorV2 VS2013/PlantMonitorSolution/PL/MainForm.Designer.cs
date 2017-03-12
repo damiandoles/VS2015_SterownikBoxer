@@ -44,6 +44,7 @@
             this.Temp_SubMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ResetDevice_SubMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ustawieniaSiecioweToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.przywrócUstawieniaDomyślneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tESTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Calibration_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CalibrateWaterpH_SubMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -56,7 +57,6 @@
             this.trayMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.ShowApp_TrayMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.CloseApp_TrayMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.przywrócUstawieniaDomyślneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.receivedConsole_gbx.SuspendLayout();
             this.receivedConsole_tlp.SuspendLayout();
             this.programMenu.SuspendLayout();
@@ -208,11 +208,19 @@
             this.ustawieniaSiecioweToolStripMenuItem.Text = "Ustawienia sieciowe";
             this.ustawieniaSiecioweToolStripMenuItem.Click += new System.EventHandler(this.ustawieniaSiecioweToolStripMenuItem_Click);
             // 
+            // przywrócUstawieniaDomyślneToolStripMenuItem
+            // 
+            this.przywrócUstawieniaDomyślneToolStripMenuItem.Name = "przywrócUstawieniaDomyślneToolStripMenuItem";
+            this.przywrócUstawieniaDomyślneToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.przywrócUstawieniaDomyślneToolStripMenuItem.Text = "Przywróc ustawienia domyślne";
+            this.przywrócUstawieniaDomyślneToolStripMenuItem.Click += new System.EventHandler(this.przywrócUstawieniaDomyślneToolStripMenuItem_Click);
+            // 
             // tESTToolStripMenuItem
             // 
             this.tESTToolStripMenuItem.Name = "tESTToolStripMenuItem";
             this.tESTToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
             this.tESTToolStripMenuItem.Text = "TEST";
+            this.tESTToolStripMenuItem.Visible = false;
             this.tESTToolStripMenuItem.Click += new System.EventHandler(this.tESTToolStripMenuItem_Click);
             // 
             // Calibration_MenuItem
@@ -298,13 +306,6 @@
             this.CloseApp_TrayMenu.Size = new System.Drawing.Size(167, 22);
             this.CloseApp_TrayMenu.Text = "Zakończ program";
             this.CloseApp_TrayMenu.Click += new System.EventHandler(this.CloseProgram_traymenu_Click);
-            // 
-            // przywrócUstawieniaDomyślneToolStripMenuItem
-            // 
-            this.przywrócUstawieniaDomyślneToolStripMenuItem.Name = "przywrócUstawieniaDomyślneToolStripMenuItem";
-            this.przywrócUstawieniaDomyślneToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
-            this.przywrócUstawieniaDomyślneToolStripMenuItem.Text = "Przywróc ustawienia domyślne";
-            this.przywrócUstawieniaDomyślneToolStripMenuItem.Click += new System.EventHandler(this.przywrócUstawieniaDomyślneToolStripMenuItem_Click);
             // 
             // MainForm
             // 
