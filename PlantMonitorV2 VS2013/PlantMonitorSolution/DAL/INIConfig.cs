@@ -54,9 +54,9 @@ namespace PlantMonitorV2.DAL
         public void IniWriteValue(string Section, string Key, string Value)
         {
             var parser = new FileIniDataParser();
-            IniData data = parser.ReadFile("configApp.ini");
+            IniData data = parser.ReadFile(configPath);
             data[Section][Key] = Value;
-            parser.WriteFile("configApp.ini", data);
+            parser.WriteFile(configPath, data);
             //WritePrivateProfileString(Section, Key, Value, this.configPath);
         }
 
@@ -72,7 +72,7 @@ namespace PlantMonitorV2.DAL
             //int i = GetPrivateProfileString(Section, Key, "", temp,
             //                                255, this.configPath);
             var parser = new FileIniDataParser();
-            IniData data = parser.ReadFile("configApp.ini");
+            IniData data = parser.ReadFile(configPath);
             string useFullScreenStr = data[Section][Key];
 
             return useFullScreenStr;
