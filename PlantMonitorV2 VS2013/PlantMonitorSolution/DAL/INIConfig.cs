@@ -14,14 +14,6 @@ namespace PlantMonitorV2.DAL
         private string configPath = null;
         private string exeAssemblyDir = null;
 
-        [DllImport("kernel32")]
-        private static extern long WritePrivateProfileString(string section,
-            string key, string val, string filePath);
-        [DllImport("kernel32")]
-        private static extern int GetPrivateProfileString(string section,
-                 string key, string def, StringBuilder retVal,
-            int size, string filePath);
-
         /// <summary>
         /// INIFile Constructor.
         /// </summary>
@@ -33,12 +25,47 @@ namespace PlantMonitorV2.DAL
                 configPath = Path.Combine(exeAssemblyDir, "configApp.ini");
                 int length = configPath.Length;
                 configPath = configPath.Substring(6, length - 6); //cut "file:\\" from string
-
-
             }
-            catch (Exception err)
+            catch (Exception)
             {
-                MessageBox.Show("Error while opening the configuration file. Verify error message. \n\r" + err.StackTrace, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Nie znaleziono pliku z ustawieniami!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                var path = System.IO.Directory.GetCurrentDirectory();
+                var pathWithFileName = System.IO.Path.Combine(path, "configApp.ini");
+                System.IO.File.Create(pathWithFileName);
+                string sections =
+
+                "[TempConfig]" + Environment.NewLine +
+                "mode = 0" + Environment.NewLine +
+                "fanPull = 0" + Environment.NewLine +
+                "fanPush = 0" + Environment.NewLine +
+                "temp = 0" + Environment.NewLine + Environment.NewLine +
+
+                "[LampConfig]" + Environment.NewLine +
+                "timeOn = 0" + Environment.NewLine +
+                "timeOff = 0" + Environment.NewLine +
+                "state = 0" + Environment.NewLine + Environment.NewLine +
+
+                "[IrrConfig]" + Environment.NewLine +
+                "mode = 0" + Environment.NewLine +
+                "freq = 0" + Environment.NewLine +
+                "number = 0" + Environment.NewLine + Environment.NewLine +
+
+                "[NetConfig]" + Environment.NewLine +
+                "ipaddr = 0" + Environment.NewLine +
+                "port = 0";
+
+                System.IO.File.WriteAllText(pathWithFileName, sections);
+
+                IniWriteValue("LampConfig", "state", "1");
+                IniWriteValue("LampConfig", "timeOff", "12");
+                IniWriteValue("LampConfig", "timeOn", "12");
+                IniWriteValue("TempConfig", "mode", "2");
+                IniWriteValue("TempConfig", "temp", "25");
+                IniWriteValue("TempConfig", "fanPull", "40");
+                IniWriteValue("TempConfig", "fanPush", "60");
+                IniWriteValue("IrrConfig", "mode", "0");
+                IniWriteValue("IrrConfig", "freq", "0");
+                IniWriteValue("IrrConfig", "number", "0");
             }
         }
 
@@ -53,11 +80,14 @@ namespace PlantMonitorV2.DAL
         /// Value Name
         public void IniWriteValue(string Section, string Key, string Value)
         {
-            var parser = new FileIniDataParser();
-            IniData data = parser.ReadFile(configPath);
-            data[Section][Key] = Value;
-            parser.WriteFile(configPath, data);
-            //WritePrivateProfileString(Section, Key, Value, this.configPath);
+            try
+            {
+                var parser = new FileIniDataParser();
+                IniData data = parser.ReadFile(configPath);
+                data[Section][Key] = Value;
+                parser.WriteFile(configPath, data);
+            }
+            catch (Exception) { }
         }
 
         /// <summary>
@@ -68,12 +98,14 @@ namespace PlantMonitorV2.DAL
         /// <returns></returns>
         public string IniReadValue(string Section, string Key)
         {
-            //StringBuilder temp = new StringBuilder(255);
-            //int i = GetPrivateProfileString(Section, Key, "", temp,
-            //                                255, this.configPath);
-            var parser = new FileIniDataParser();
-            IniData data = parser.ReadFile(configPath);
-            string useFullScreenStr = data[Section][Key];
+            string useFullScreenStr = null;
+            try
+            {
+                var parser = new FileIniDataParser();
+                IniData data = parser.ReadFile(configPath);
+                useFullScreenStr = data[Section][Key];
+            }
+            catch (Exception) { }
 
             return useFullScreenStr;
         }
